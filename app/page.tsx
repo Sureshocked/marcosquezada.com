@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center gap-4">
               <Button variant="outline" size="icon" asChild>
-                <a href="https://github.com/Sureshocked/marcosquezada.com" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <a href="https://github.com/Sureshocked" target="_blank" rel="noopener noreferrer" title="GitHub">
                   <Github className="h-4 w-4" />
                 </a>
               </Button>

@@ -4,14 +4,19 @@ import { GraduationCap } from "lucide-react"
 
 export function EducationSection() {
   return (
-    <div className="grid gap-4 md:gap-6">
+    <><div className="grid gap-4 md:gap-6">
       <EducationItem
-        degree="Associate of Science (AS) in Computer Programming"
-        school="Mt. San Antonio College (Mt. SAC)"
-        period="June 2017"
-        description="Walnut, CA"
-      />
-    </div>
+        degree="Bachelor of Science (BS) in Computer Science"
+        school="Western Governors University"
+        period="Expected 2025"
+        description="Online" />
+    </div><div className="grid gap-4 md:gap-6">
+        <EducationItem
+          degree="Associate of Science (AS) in Computer Programming"
+          school="Mt. San Antonio College (Mt. SAC)"
+          period="June 2017"
+          description="Walnut, CA" />
+      </div></>
   )
 }
 
